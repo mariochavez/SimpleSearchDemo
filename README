@@ -6,3 +6,5 @@ $ rake db:seed
 $ rails s
 
 And navigate to http://localhost:3000/searches
+
+There are 2 rates, one of the from Jan 1st to Mar 1st and the second one from Feb 1st to Apr 1st

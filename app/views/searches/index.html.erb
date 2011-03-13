@@ -1,0 +1,15 @@
+<h1>Listing searches</h1>
+
+<%= render 'form' %>
+
+Resultados
+
+<% if @rates %>
+  <% @rates.each do | rate| %>
+    <div>
+      <p><%= rate.room.name %></p>
+      <p><%= rate.room.capacity %></p>
+      <p><%= rate.total_rate %></p>
+    </div>
+  <% end %>
+<% end %>

@@ -7,7 +7,7 @@
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 #
 
-rooms = Room.create([{:name => 'Cuarto 1', :capacity => 2}, {:name => 'Cuarto 2', :capacity => 4}])
+rooms = Room.create([{:name => 'Cuarto 1', :max_adult => 2, :max_child => 2}, {:name => 'Cuarto 2', :max_adult => 4, :max_child => 2}])
 
 rate1 = Rate.new(:start_date => Date.parse('2011-01-01'), :end_date => Date.parse('2011-03-01'))
 rate2 = Rate.new(:start_date => Date.parse('2011-02-01'), :end_date => Date.parse('2011-04-01'))

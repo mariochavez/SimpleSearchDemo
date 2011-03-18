@@ -20,8 +20,12 @@
     <%= f.date_select :end_date %>
   </div>
   <div class="field">
-    <%= f.label :capacity %><br />
-    <%= f.text_field :capacity %>
+    <%= f.label :max_adult %><br />
+    <%= f.text_field :max_adult %>
+  </div>
+  <div class="field">
+    <%= f.label :max_child %><br />
+    <%= f.text_field :max_child %>
   </div>
   <div class="actions">
     <%= f.submit('Search') %>

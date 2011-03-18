@@ -8,8 +8,8 @@ Resultados
   <% @rates.each do | rate| %>
     <div>
       <p><%= rate.room.name %></p>
-      <p><%= rate.room.capacity %></p>
-      <p><%= rate.total_rate %></p>
+      <p><%= rate.room.max_adult + rate.room.max_child %></p>
+      <p><%= rate.total_rate(@search.max_adult, @search.max_child) %></p>
     </div>
   <% end %>
 <% end %>

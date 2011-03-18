@@ -2,7 +2,7 @@ A very simple search proof of concept demo for Rails.
 
 Just run:
 $ rake db:migrate
-$ rake db:seed
+$ rake db:reset
 $ rails s
 
 And navigate to http://localhost:3000/searches
